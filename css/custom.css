@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #a8dfff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+.d-block {
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+.midd-block {
+    mask-image: linear-gradient(to Right, #000000 50%, transparent 110%);
+}
+
+#ourBlock {
+    padding: 20px 0px;
+    background: url(../images/proBg.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+
+.block-text {
+    margin: 0px;
+    padding: 15px 0 10px 0;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 44px;
+    color: #363636;
+    font-weight: bold;
+}
+
+.block-text p {
+    margin: auto;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000;
+    /* width: 450px; */
+    line-height: 26px;
+    font-size: 19px;
+}
+
+.readM {
+    margin: 5px auto;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0px;
+}
+
+.readM a {
+    color: #000;
+    background-color: #fff;
+    padding: 7px 25px;
+    /* border: #000 2px solid; */
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#ourBlock h3 {
+    margin: 0;
+    padding: 0px;
+    color: #fff;
+    font-size: 46px;
+    text-align: center;
+}
+
+.workDetails {
+    margin-top: 10px;
+}
+
+.title {
+    margin-top: 10px;
+    padding: 0px;
+    color: #000;
+    font-size: 46px;
+    text-align: center;
+}
+
+.workDetails-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    color: #000;
+    text-align: center;
+}
+
+.workDetails img{
+    padding-top:25px ;
+}
+.card {
+ 
+    margin-top: 50px;
+}
+
+.card img {
+    margin: 0;
+
+}
+
+.card-title {
+
+    font-weight: 700;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: 15px;
+}
+.nPro{
+    padding-bottom: 0;
+    background: #e5e5e5;
+}
+.nPro a{
+    border-radius: 0;
+    background: #1f4157;
+    margin:0 40px 0 80px;
+}
+.proTitle{
+    text-align: center;
+    font-size: 15px;
+}
+
+.vMore{
+    background-color: black;
+}
+#testimonial{
+    padding: 20px;
+    background: url(../images/textBg.jpg);
+    animation: all ease-in;
+    /* box-shadow: 1px 0px 23px 4px #333131 */
+   
+}
+/* #icon-prev{
+    border: 1px red solid;
+} */
+.testimonial-title{
+    color: #fff;
+ text-align: center;
+}
+.txtBlock img{
+   border-radius: 50%;
+    margin: auto;
+    border: 1px black solid;
+}
+.clientName{
+    text-align: center;
+    color: #fff;
+}
+.reviweClient{
+    width: 50%;
+    margin: auto;
+    padding:27px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.footer {
+    background: #a8dfff;
+    /* margin-top: 5%; */
+}
+
+.footer-title {
+    padding-top:15px;
+
+}
+
+.footer ul li {
+    padding: 5px;
+    list-style: none;
+}
+
+.footer-items a{
+    text-decoration: none;
+    color: #000;
+}
+.social ul{
+    padding-left: 0;
+}
+.social ul li {
+    display: inline-block;
+
+}
+
+.social li {
+    margin-top: 10px;
+}
+
+.social ul li i {
+    font-size: 20px;
+    color: #000;
+}
+
+.follow-title {
+   padding-top: 10px;
+}
+
+.add {
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.add i {
+    margin-right: 5px;
+}
+
+.email i {
+    margin-right: 10px;
+}
+
+.copy {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    background: #1f4157;
+    text-align: center;
+}
